@@ -23,7 +23,7 @@ controllerManager:
 
   manager:
     image:
-      repository: ghcr.io/pfnet-research/gcp-workload-identity-federation-webhook
+      repository: ghcr.io/getditto/gcp-workload-identity-federation-webhook
       # default tag is v{{.Chart.AppVersion｝｝
       # tag: latest
     args:
